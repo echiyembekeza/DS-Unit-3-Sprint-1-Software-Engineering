@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Tests for Acme Python modules."""
 
 import unittest
@@ -45,4 +46,3 @@ class AcmeReportTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-

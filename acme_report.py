@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Utilities to make and report data on Acme products."""
 
 from random import randint, sample, uniform
@@ -43,4 +44,3 @@ def inventory_report(products):
 
 if __name__ == '__main__':
     inventory_report(generate_products())  # Make 30 random products, summarize
-
